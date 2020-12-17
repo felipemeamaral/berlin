@@ -170,7 +170,7 @@ background-image: -webkit-gradient(
     -webkit-transition: all 1s linear infinite !important;
 }
 td.menunavigation_new {
-background: #19191c !important;
+background: -webkit-gradient( linear, left bottom, left top, color-stop(0.1, #19191c), color-stop(0.85, #36363A) !important;
 }
 td.menunavigation_new:hover{
 background: #252530 url("data:image/gif;base64,R0lGODlhAQATAPZtADMyNyUkLCwtMiAhKCgoLx4eJhsbJDAwNTU1OUVFSkJCR25uc0hITkpK\
