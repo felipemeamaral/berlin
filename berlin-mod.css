@@ -990,7 +990,9 @@ td.bottom>table[width="500"]:first-of-type td a:active {
 }
 #torrent-list a.fl::after,
 #torrent-list a[title^="25%"]::after,
-#torrent-list a[title^="50%"]::after {
+#torrent-list a[title^="50%"]::after,
+#torrent-list a[title^="Neutral"]::after,
+#torrent-list a[title^="All"]::after {
 	float: right;
 	font-size: 10px;
 	width: 34px;
@@ -1008,6 +1010,14 @@ td.bottom>table[width="500"]:first-of-type td a:active {
 #torrent-list a[title^="50%"]::after {
 	content: "50%";
 	color: #c67b7b
+}
+#torrent-list a[title^="Neutral"]::after {
+    content: "NTRL";
+	color: #7b94c6
+}
+#torrent-list a[title^="All"]::after {
+    content: "ALL";
+    color: #c6c6c6
 }
 #torrent-list a.fl {
 	color: #5fa855
