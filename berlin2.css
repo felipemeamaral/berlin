@@ -1,6 +1,7 @@
 /*!* Theme Name: Berlin
 * Version: 1.0
 * Last Updated: 11 December 2020
+* Mods by malcompaq
 * Notes: Ensure stylesheet is set to (default) in profile settings when in use*/
 
 :root {
@@ -32,7 +33,6 @@
 	--collapsables: #041824a4
 }
 #torrent-list tr>td:nth-child(3)>a[href^="/film/info?id="] {
-	background-color: var(--MainColor);
 	color: var(--InternalColor);
 	font-size: 10px;
 	font-weight: 700;
@@ -41,7 +41,6 @@
 	padding-right: 1px;
 	text-decoration: none;
 	margin-left: 5px;
-	border: 1px solid var(--InternalColor)
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
 	html {
@@ -54,7 +53,6 @@
 .hideablecontent {
 	padding: 15px;
 	background: var(--collapsables);
-	box-shadow: 0 0 1rem 1px rgba(0, 0, 0, .5);
 	border: thick double var(--MainColor)
 }
 .list-overview {
@@ -81,9 +79,6 @@ div.list-overview__overlay div.list-overview__text {
 }
 #details tbody tr td table.main.tablesorter.table_other_copies tbody {
 	border: 1px solid var(--DarkestColor)
-}
-td.bottom:nth-child(2)>table:nth-child(4) {
-	box-shadow: var(--borderShadow)
 }
 td.embedded {
 	border: none;
@@ -193,16 +188,11 @@ input[type=submit],
 input[type=reset] {
 	outline: none;
 	border: 1px solid var(--DarkestColor);
-	background-color: var(--searchDropdown);
+	background-color: var(--DarkestColor);
 	color: var(--MenuFontColor);
-	-webkit-transition: background-color .2s ease-out, color .2s ease-out;
-	-moz-transition: background-color .2s ease-out, color .2s ease-out;
-	-o-transition: background-color .2s ease-out, color .2s ease-out;
-	transition: background-color .2s ease-out, color .2s ease-out;
 	position: relative;
 	top: 0;
-	border-radius: 3px;
-	box-shadow: none
+	border-radius: 6px;
 }
 button:focus,
 button[type=button]:focus,
@@ -221,10 +211,6 @@ input[type=button]:active,
 input[type=submit]:active,
 input[type=reset]:active {
 	top: 2px;
-	-webkit-transition: none;
-	-moz-transition: none;
-	-o-transition: none;
-	transition: none
 }
 button:hover,
 button:focus,
@@ -279,10 +265,6 @@ a,
 a.catlink {
 	color: var(--white);
 	text-decoration: underline;
-	-webkit-transition: color .2s linear;
-	-moz-transition: color .2s linear;
-	-o-transition: color .2s linear;
-	transition: color .2s linear
 }
 a:link,
 a:visited {
@@ -299,21 +281,11 @@ a.catlink:active {
 	text-decoration: underline
 }
 a:active,
-a.catlink:active {
-	-webkit-transition: none;
-	-moz-transition: none;
-	-o-transition: none;
-	transition: none
-}
 a:link,
 a:visited,
 a.catlink:link,
 a.catlink:visited {
 	color: var(--white);
-	-webkit-transition: color .2s linear;
-	-moz-transition: color .2s linear;
-	-o-transition: color .2s linear;
-	transition: color .2s linear
 }
 a:link:hover,
 a:link:focus,
@@ -330,22 +302,9 @@ a.catlink:visited:active {
 	color: var(--white);
 	text-decoration: underline
 }
-a:link:active,
-a:visited:active,
-a.catlink:link:active,
-a.catlink:visited:active {
-	-webkit-transition: none;
-	-moz-transition: none;
-	-o-transition: none;
-	transition: none
-}
 a.altlink {
 	color: var(--white);
 	text-decoration: underline;
-	-webkit-transition: color .2s linear;
-	-moz-transition: color .2s linear;
-	-o-transition: color .2s linear;
-	transition: color .2s linear
 }
 a.altlink:hover,
 a.altlink:focus,
@@ -353,20 +312,10 @@ a.altlink:active {
 	color: var(--white);
 	text-decoration: underline
 }
-a.altlink:active {
-	-webkit-transition: none;
-	-moz-transition: none;
-	-o-transition: none;
-	transition: none
-}
-a.altlink:link,
+altlink:link,
 a.altlink:visited {
 	color: var(--white);
 	text-decoration: underline;
-	-webkit-transition: color .2s linear;
-	-moz-transition: color .2s linear;
-	-o-transition: color .2s linear;
-	transition: color .2s linear
 }
 a.altlink:link:hover,
 a.altlink:link:focus,
@@ -377,21 +326,8 @@ a.altlink:visited:active {
 	color: var(--white);
 	text-decoration: underline
 }
-a.altlink:link:active,
-a.altlink:visited:active {
-	-webkit-transition: none;
-	-moz-transition: none;
-	-o-transition: none;
-	transition: none
-}
 table.tablesorter {
 	border: none
-}
-.tablesorter>tbody>tr {
-	-webkit-transition: background-color .2s ease-out;
-	-moz-transition: background-color .2s ease-out;
-	-o-transition: background-color .2s ease-out;
-	transition: background-color .2s ease-out
 }
 .tablesorter>tbody>tr:hover {
 	background-color: var(--darkestcolor)
@@ -405,10 +341,6 @@ a.altlink[href^="userdetails.php?id="] {
 	color: var(--UsernameColor);
 	font-weight: 700;
 	text-decoration: none;
-	-webkit-transition: color .3s ease, text-shadow .3s ease;
-	-moz-transition: color .3s ease, text-shadow .3s ease;
-	-o-transition: color .3s ease, text-shadow .3s ease;
-	transition: color .3s ease, text-shadow .3s ease
 }
 a[href^="/userdetails.php?id="]:hover,
 a[href^="/userdetails.php?id="]:focus,
@@ -453,7 +385,6 @@ body>table:first-of-type {
 	color: var(--MenuFontColor)
 }
 #searchselector>li:hover {
-	text-shadow: 0 0 6px var(--highlightmenutext);
 	color: var(--highlightmenutext)
 }
 #sitesearchform {
@@ -461,6 +392,7 @@ body>table:first-of-type {
 }
 #sitesearchinput {
 	border: 1px solid var(--DarkestColor);
+    border-radius: 6px;
 	background-color: var(--MainColor);
 	padding: 5px;
 	margin-top: 2px;
@@ -497,11 +429,6 @@ button:focus,
 	background-color: var(--MainColor);
 	color: var(--highlightmenutext);
 	opacity: 1;
-	box-shadow: 0 0 5px 1px #5989ad;
-	-webkit-transition: box-shadow .2s ease-out, color .2s ease-out, border .2s ease-out;
-	-moz-transition: box-shadow .2s ease-out, color .2s ease-out, border .2s ease-out;
-	-o-transition: box-shadow .2s ease-out, color .2s ease-out, border .2s ease-out;
-	transition: box-shadow .2s ease-out, color .2s ease-out, border .2s ease-out
 }
 input,
 select,
@@ -663,9 +590,6 @@ p.sub>a[name]:target {
 .popup:hover {
 	background-color: var(--hovernotifications)
 }
-.popup {
-	box-shadow: var(--borderShadow)
-}
 .alert-box {
 	display: inline;
 	border-radius: 3px;
@@ -693,7 +617,6 @@ p.sub>a[name]:target {
 	background: var(--weirdwhite);
 	color: var(--MenuFontColor);
 	border: 1px solid var(--shittyborder);
-	box-shadow: none
 }
 .autocomplete-selected {
 	background: var(--DarkestColor);
@@ -701,7 +624,6 @@ p.sub>a[name]:target {
 }
 .menu {
 	border: none;
-	box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .5);
 	background: var(--DarkestColor)
 }
 #menusides,
@@ -721,28 +643,11 @@ td.menunavigation_new a.normal {
 	padding-bottom: 5px;
 	width: 100%;
 	color: var(--MenuFontColor);
-	box-shadow: none;
 	border-bottom: 2px solid transparent
-}
-td.menunavigation a.normal:active,
-td.menunavigation_new a.normal:active {
-	color: var(--highlightmenutext);
-	-webkit-transition: none;
-	-moz-transition: none;
-	-o-transition: none;
-	transition: none
 }
 td.menunavigation_new a.normal {
 	position: relative;
 	z-index: 1
-}
-td.menunavigation_new a.normal:hover::before,
-td.menunavigation_new a.normal:focus::before,
-td.menunavigation_new a.normal:active::before {
-	-webkit-animation: none;
-	-moz-animation: none;
-	-o-animation: none;
-	animation: none
 }
 td.menunavigation_new a.normal::before {
 	content: "";
@@ -753,11 +658,6 @@ td.menunavigation_new a.normal::before {
 	height: 2px;
 	transform-origin: center;
 	transform: scaleX(1);
-	transition: transform .4s ease;
-	*/-webkit-animation: menuflash1600msinfinitealternate;
-	-moz-animation: menuflash 1600ms infinite alternate;
-	-o-animation: menuflash 1600ms infinite alternate;
-	animation: menuflash 1600ms infinite alternate
 }
 @-webkit-keyframes menuflash {
 	100% {
@@ -799,16 +699,10 @@ td#sidebar-container {
 	margin-left: -10px;
 	height: auto;
 	max-height: 100%;
-	-webkit-transition: width .15s ease;
-	-moz-transition: width .15s ease;
-	-o-transition: width .15s ease;
-	transition: width .15s ease;
 	width: 20px
 }
 td#sidebar-container .main {
 	position: relative;
-	background-color: var(--DarkestColor);
-	box-shadow: var(--borderShadow);
 	padding: 0
 }
 td#sidebar-container .main::before {
@@ -817,36 +711,6 @@ td#sidebar-container .main::before {
 	display: block;
 	border-radius: 0 5px 5px 0;
 	background-color: var(--DarkestColor)
-}
-td#sidebar-container:hover {
-	-webkit-transition: none;
-	-moz-transition: none;
-	-o-transition: none;
-	transition: none
-}
-td#sidebar-container:hover .main::before {
-	-webkit-transition: opacity .15s ease, z-index 0 .15s;
-	-moz-transition: opacity .15s ease, z-index 0 .15s;
-	-o-transition: opacity .15s ease, z-index 0 .15s;
-	transition: opacity .15s ease, z-index 0 .15s
-}
-td#sidebar-container .main {
-	-webkit-transition: left .15s ease;
-	-moz-transition: left .15s ease;
-	-o-transition: left .15s ease;
-	transition: left .15s ease
-}
-td#sidebar-container .main::before {
-	-webkit-transition: opacity .15s ease;
-	-moz-transition: opacity .15s ease;
-	-o-transition: opacity .15s ease;
-	transition: opacity .15s ease
-}
-td#sidebar-container+* {
-	-webkit-transition: padding .15s ease;
-	-moz-transition: padding .15s ease;
-	-o-transition: padding .15s ease;
-	transition: padding .15s ease
 }
 td#sidebar-container+* {
 	padding-left: 20px
@@ -883,44 +747,6 @@ td#sidebar-container .main::before {
 		padding-left: 190px
 	}
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-	td#sidebar-container {
-		-webkit-transition: none;
-		-moz-transition: none;
-		-o-transition: none;
-		transition: none
-	}
-	td#sidebar-container:hover {
-		-webkit-transition: none;
-		-moz-transition: none;
-		-o-transition: none;
-		transition: none
-	}
-	td#sidebar-container:hover .main::before {
-		-webkit-transition: none;
-		-moz-transition: none;
-		-o-transition: none;
-		transition: none
-	}
-	td#sidebar-container .main {
-		-webkit-transition: none;
-		-moz-transition: none;
-		-o-transition: none;
-		transition: none
-	}
-	td#sidebar-container .main::before {
-		-webkit-transition: none;
-		-moz-transition: none;
-		-o-transition: none;
-		transition: none
-	}
-	td#sidebar-container+* {
-		-webkit-transition: none;
-		-moz-transition: none;
-		-o-transition: none;
-		transition: none
-	}
-}
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
 	td#sidebar-container {
 		width: 190px
@@ -941,8 +767,7 @@ td#sidebar-container form>select {
 }
 td#sidebar-container .embedded {
 	background-color: var(--DarkestColor);
-	border: solid var(--DarkestColor) 1px;
-	box-shadow: var(--borderShadow)
+    border-radius: 6px !important;
 }
 td#sidebar-container .embedded table,
 td#sidebar-container .embedded h2 {
@@ -953,8 +778,8 @@ td#sidebar-container .embedded h2 {
 td#sidebar-container .embedded table {
 	margin-top: 0;
 	margin-bottom: 0;
-	border: 1px solid #121212;
-	background-color: var(--TableCellColor)
+	border: none;
+	background-color: transparent
 }
 td#sidebar-container .embedded table:last-of-type {
 	margin-bottom: 10px
@@ -989,18 +814,13 @@ td.bottom>table[width="800"]:first-of-type td a,
 td.bottom>table[width="500"]:first-of-type td a {
 	height: 23px;
 	line-height: 23px;
-	border-radius: 3px;
+	border-radius: 6px;
 	background-color: var(--DarkestColor);
 	color: var(--MenuFontColor);
 	text-decoration: none;
 	display: inline-block;
 	width: 100%;
-	-webkit-transition: background-color .2s ease-out, color .2s ease-out;
-	-moz-transition: background-color .2s ease-out, color .2s ease-out;
-	-o-transition: background-color .2s ease-out, color .2s ease-out;
-	transition: background-color .2s ease-out, color .2s ease-out;
-	border: none;
-	box-shadow: var(--borderShadow)
+	border: none; 
 }
 td.bottom>table[width="800"]:first-of-type td a:hover,
 td.bottom>table[width="800"]:first-of-type td a:focus,
@@ -1013,10 +833,6 @@ td.bottom>table[width="800"]:first-of-type td a:active,
 td.bottom>table[width="500"]:first-of-type td a:active {
 	background-color: var(--DarkestColor);
 	color: var(--maincolor);
-	-webkit-transition: none;
-	-moz-transition: none;
-	-o-transition: none;
-	transition: none
 }
 .submenu-highlight__link {
 	background-color: var(--DarkestColor)!important;
@@ -1043,13 +859,7 @@ td.bottom>table[width="500"]:first-of-type td a:active {
 	background-color: #041824;
 	color: var(--MenuFontColor);
 	text-decoration: none;
-	box-shadow: var(--borderShadow);
-	-webkit-transition: background-color .2s ease-out, color .2s ease-out;
-	-moz-transition: background-color .2s ease-out, color .2s ease-out;
-	-o-transition: background-color .2s ease-out, color .2s ease-out;
-	transition: background-color .2s ease-out, color .2s ease-out;
 	border: none;
-	box-shadow: var(--borderShadow);
 	padding: 0;
 	font-size: 12px;
 	margin: 8px;
@@ -1078,16 +888,9 @@ td.bottom>table[width="500"]:first-of-type td a:active {
 #torrent-list {
 	background: 0 0;
 	border: none;
-	box-shadow: var(--borderShadow);
 	box-sizing: border-box;
 	border-collapse: separate;
 	border-spacing: 0
-}
-#torrent-list>tbody>tr {
-	-webkit-transition: background-color .2s ease-out;
-	-moz-transition: background-color .2s ease-out;
-	-o-transition: background-color .2s ease-out;
-	transition: background-color .2s ease-out
 }
 #torrent-list>tbody>tr:nth-of-type(odd) {
 	background-color: var(--TableCellColor2)
@@ -1158,7 +961,6 @@ td.bottom>table[width="500"]:first-of-type td a:active {
 	color: var(--weirdwhite);
 	border: none;
 	border-radius: 3px;
-	box-shadow: none;
 	text-decoration: none;
 	margin-left: 2px;
 	margin-top: 0;
@@ -1171,7 +973,7 @@ td.bottom>table[width="500"]:first-of-type td a:active {
 #torrent-list button.tvdb_button:focus,
 #torrent-list button.tvdb_button:active {
 	background-color: var(--weirdwhite);
-	color: var(--searchDropdown);
+	color: var(--white);
 	text-decoration: none
 }
 #torrent-list button:active,
@@ -1186,13 +988,6 @@ td.bottom>table[width="500"]:first-of-type td a:active {
 #torrent-list a[href^="/details.php?id="]:active>font[color] {
 	color: var(--white)
 }
-#torrent-list a>font {
-	color: var(--white);
-	-webkit-transition: inherit;
-	-moz-transition: inherit;
-	-o-transition: inherit;
-	transition: inherit
-}
 #torrent-list a.fl::after,
 #torrent-list a[title^="25%"]::after,
 #torrent-list a[title^="50%"]::after {
@@ -1204,31 +999,38 @@ td.bottom>table[width="500"]:first-of-type td a:active {
 }
 #torrent-list a.fl::after {
 	content: "FREE";
-	color: #39f
+	color: #5fa855
 }
 #torrent-list a[title^="25%"]::after {
 	content: "75%";
-	color: rgba(51, 153, 255, .75)
+	color: #c6b17b
 }
 #torrent-list a[title^="50%"]::after {
 	content: "50%";
-	color: rgba(51, 153, 255, .5)
+	color: #c67b7b
+}
+#torrent-list a.fl {
+	color: #5fa855
+}
+#torrent-list a[title^="25%"] {
+	color: #c6b17b
+}
+#torrent-list a[title^="50%"] {
+	color: #c67b7b
+}
+#torrent-list a[title^="Neutral"] {
+	color: #7b94c6
+}
+#torrent-list a[title^="All"] {
+	color: #c6c6c6
 }
 #offerstable,
 #table_open_requests {
 	background: 0 0;
 	border: none;
-	box-shadow: var(--borderShadow);
 	box-sizing: border-box;
 	border-collapse: separate;
 	border-spacing: 0
-}
-#offerstable>tbody>tr,
-#table_open_requests>tbody>tr {
-	-webkit-transition: background-color .2s ease-out;
-	-moz-transition: background-color .2s ease-out;
-	-o-transition: background-color .2s ease-out;
-	transition: background-color .2s ease-out
 }
 #offerstable>tbody>tr:nth-of-type(odd),
 #table_open_requests>tbody>tr:nth-of-type(odd) {
@@ -1251,31 +1053,25 @@ td.bottom>table[width="500"]:first-of-type td a:active {
 .fl,
 a.fl:link,
 a.fl:visited {
-	color: var(--MenuFontColor)
+	color: #5fa855
 }
 .internal,
 a.internal {
-	color: #ffcd50
+	color: #c67b7b
 }
-a.fl:hover,
-a.fl:focus,
-a.fl:active,
-a.internal:hover,
-a.internal:focus,
-a.internal:active {
-	color: var(--white)
+.fl.internal,
+a.fl.internal:hover,
+a.fl.internal:focus,
+a.fl.internal:active {
+	color: #5fa855
 }
 a:hover .fl,
 a:focus .fl,
 a:active .fl {
-	color: var(--white)
-}
-a .fl {
 	text-decoration: underline;
-	-webkit-transition: inherit;
-	-moz-transition: inherit;
-	-o-transition: inherit;
-	transition: inherit
+}
+a .fl, a .fl.internal {
+	text-decoration: underline;
 }
 .tag {
 	color: var(--tagText);
@@ -1338,7 +1134,6 @@ td[id^=codec] {
 }
 form>#searchbox {
 	border: none;
-	box-shadow: var(--borderShadow);
 	box-sizing: border-box;
 	border-collapse: separate;
 	border-spacing: 0
@@ -1347,7 +1142,6 @@ html #searchcriteria {
 	background-color: var(--TableCellColor2);
 	margin-bottom: 20px;
 	border: none;
-	box-shadow: var(--borderShadow);
 	box-sizing: border-box;
 	border-collapse: separate;
 	border-spacing: 0;
@@ -1360,7 +1154,6 @@ html .statbox {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	border: none;
-	box-shadow: var(--borderShadow);
 	box-sizing: border-box;
 	border-collapse: separate;
 	border-spacing: 0
@@ -1443,7 +1236,6 @@ html body table.main tbody tr td.bottom h3 {
 .film-list-container {
 	width: 900px;
 	background-color: var(--MainColor);
-	box-shadow: var(--borderShadow);
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 15px;
@@ -1454,9 +1246,6 @@ html body table.main tbody tr td.bottom h3 {
 	font-size: 11px;
 	display: inline-block;
 	font-weight: 700
-}
-html body table.main tbody tr td.bottom div.rc.js-rc {
-	box-shadow: var(--borderShadow)
 }
 span.movie_name {
 	padding-bottom: 5px;
@@ -1492,22 +1281,12 @@ html .info__title-nodownloads {
 	font-weight: 700;
 	color: var(--white);
 	text-decoration: underline;
-	-webkit-transition: color .2s linear;
-	-moz-transition: color .2s linear;
-	-o-transition: color .2s linear;
-	transition: color .2s linear
 }
 .pagerel:hover,
 .pagerel:focus,
 .pagerel:active {
 	color: var(--white);
 	text-decoration: underline
-}
-.pagerel:active {
-	-webkit-transition: none;
-	-moz-transition: none;
-	-o-transition: none;
-	transition: none
 }
 b .pagerel {
 	color: rgba(207, 218, 227, .5);
@@ -1525,7 +1304,6 @@ b .pagerel {
 #tv-show-list {
 	width: 500px;
 	border: none;
-	box-shadow: var(--borderShadow);
 	box-sizing: border-box;
 	border-collapse: separate;
 	border-spacing: 0
@@ -1535,7 +1313,6 @@ b .pagerel {
 	margin-left: 35px;
 	width: 400px;
 	border: none;
-	box-shadow: var(--borderShadow);
 	box-sizing: border-box;
 	border-collapse: separate;
 	border-spacing: 0
@@ -1545,14 +1322,9 @@ b .pagerel {
 	color: var(--weirdwhite);
 	border: none;
 	border-radius: 3px;
-	box-shadow: none;
 	text-decoration: none;
 	position: relative;
 	top: 0;
-	-webkit-transition: background-color .2s ease-out, color .2s ease-out;
-	-moz-transition: background-color .2s ease-out, color .2s ease-out;
-	-o-transition: background-color .2s ease-out, color .2s ease-out;
-	transition: background-color .2s ease-out, color .2s ease-out
 }
 .overlay-popupui>.button:hover,
 .overlay-popupui>.button:focus,
@@ -1563,10 +1335,6 @@ b .pagerel {
 }
 .overlay-popupui>.button:active {
 	top: 2px;
-	-webkit-transition: none;
-	-moz-transition: none;
-	-o-transition: none;
-	transition: none
 }
 .show-banner-text {
 	background-color: var(--TableCellColor2);
@@ -1634,14 +1402,12 @@ html .list-description {
 	max-width: 850px;
 	margin: 30px 0 20px;
 	border: none;
-	box-shadow: var(--borderShadow);
 	box-sizing: border-box;
 	border-collapse: separate;
 	border-spacing: 0
 }
 html .item>h2,
 html .item>h2+div.item-body {
-	box-shadow: var(--borderShadow);
 	border-left: none;
 	border-right: none;
 	box-sizing: border-box;
@@ -1690,14 +1456,9 @@ html .list-links>a {
 	color: var(--weirdwhite);
 	border: none;
 	border-radius: 3px;
-	box-shadow: none;
 	text-decoration: none;
 	position: relative;
 	top: 0;
-	-webkit-transition: background-color .2s ease-out, color .2s ease-out;
-	-moz-transition: background-color .2s ease-out, color .2s ease-out;
-	-o-transition: background-color .2s ease-out, color .2s ease-out;
-	transition: background-color .2s ease-out, color .2s ease-out
 }
 html .list-links>a:hover,
 html .list-links>a:focus,
@@ -1708,16 +1469,11 @@ html .list-links>a:active {
 }
 html .list-links>a:active {
 	top: 2px;
-	-webkit-transition: none;
-	-moz-transition: none;
-	-o-transition: none;
-	transition: none
 }
 #list-add-container {
 	padding: 5px 20px 15px;
 	background-color: var(--TableCellColor2);
 	border: none;
-	box-shadow: var(--borderShadow);
 	box-sizing: border-box;
 	border-collapse: separate;
 	border-spacing: 0
@@ -1729,7 +1485,6 @@ html .list-links>a:active {
 	background: 0 0;
 	margin-top: 20px;
 	border: none;
-	box-shadow: var(--borderShadow);
 	box-sizing: border-box;
 	border-collapse: separate;
 	border-spacing: 0
@@ -1743,7 +1498,6 @@ html .list-links>a:active {
 #list-add>table.form-input {
 	background-color: var(--TableCellColor2);
 	border: none;
-	box-shadow: var(--borderShadow);
 	box-sizing: border-box;
 	border-collapse: separate;
 	border-spacing: 0
@@ -1752,7 +1506,6 @@ td.bottom>table+h1~table:not([class]),
 td.bottom>table+h1~div>table:not([class]) {
 	background: 0 0;
 	border: none;
-	box-shadow: var(--borderShadow);
 	box-sizing: border-box;
 	border-collapse: separate;
 	border-spacing: 0
@@ -1784,7 +1537,6 @@ td[style="border: 1px black dashed"] {
 }
 table.std-content {
 	border: none;
-	box-shadow: var(--borderShadow);
 	box-sizing: border-box;
 	border-collapse: separate;
 	border-spacing: 0
@@ -1806,14 +1558,14 @@ table.std-content {
 }
 .std-content>tbody>tr>td>table.readpost {
 	background-color: var(--MainColor);
-	border: 1px solid var(--DarkestColor)
+	border: 1px solid var(--selected)
 }
 .std-content>tbody>tr>td>table.readpost .main {
 	background: 0 0
 }
 .std-content>tbody>tr>td>table.main {
 	background-color: var(--HoverHighlight);
-	border: 1px solid #383239
+	border: 1px solid var(--MenuFontColor)
 }
 .std-content>tbody>tr>td>table.main .main {
 	background: 0 0
@@ -1887,7 +1639,6 @@ td.bottom>form[action="/log.php"]~table {
 	color: var(--white);
 	width: 850px;
 	border: none;
-	box-shadow: var(--borderShadow);
 	box-sizing: border-box;
 	border-collapse: separate;
 	border-spacing: 0
@@ -1930,14 +1681,12 @@ tr.logentry:nth-of-type(even).edited {
 }
 table.interiortable {
 	background-color: var(--TableCellColor2);
-	box-shadow: 0 0 4px 1px #091120
 }
 table.poll {
 	background: 0 0
 }
 #news>h2,
 #news>h2+table {
-	box-shadow: var(--borderShadow);
 	border-left: none;
 	border-right: none;
 	box-sizing: border-box;
@@ -1957,7 +1706,6 @@ td.embedded[bgcolor="#ECE9D8"] {
 	border: none!important
 }
 #details {
-	box-shadow: var(--borderShadow);
 	box-sizing: border-box;
 	border-collapse: separate;
 	border-spacing: 0
@@ -1987,7 +1735,6 @@ tr[bgcolor="#436c80"] {
 #showpage {
 	background-color: var(--TableCellColor2);
 	border: none;
-	box-shadow: var(--borderShadow);
 	box-sizing: border-box;
 	border-collapse: separate;
 	border-spacing: 0
@@ -2011,7 +1758,6 @@ table.sources_table,
 table.lottery_table,
 table.lottery_table2 {
 	border: none;
-	box-shadow: var(--borderShadow);
 	box-sizing: border-box;
 	border-collapse: separate;
 	border-spacing: 0
@@ -2050,7 +1796,6 @@ div.div_showhide div {
 form[action="inbox.php"]>table {
 	background: 0 0;
 	border: none;
-	box-shadow: var(--borderShadow);
 	box-sizing: border-box;
 	border-collapse: separate;
 	border-spacing: 0
@@ -2086,7 +1831,6 @@ td[bgcolor="#F4F4F0"] {
 td.bottom>form[action="dox.php"]+p+table {
 	background: 0 0;
 	border: none;
-	box-shadow: var(--borderShadow);
 	box-sizing: border-box;
 	border-collapse: separate;
 	border-spacing: 0
@@ -2121,7 +1865,6 @@ h2>a[name=blocks] {
 #wishlist {
 	background: 0 0;
 	border: none;
-	box-shadow: var(--borderShadow);
 	box-sizing: border-box;
 	border-collapse: separate;
 	border-spacing: 0
@@ -2153,7 +1896,6 @@ h2>a[name=blocks] {
 }
 table.tableb {
 	border: none;
-	box-shadow: var(--borderShadow);
 	box-sizing: border-box;
 	border-collapse: separate;
 	border-spacing: 0
@@ -2170,14 +1912,12 @@ table.padding2 {
 	background-color: var(--TableCellColor2);
 	color: var(--DownBonusRed);
 	border: none;
-	box-shadow: var(--borderShadow);
 	box-sizing: border-box;
 	border-collapse: separate;
 	border-spacing: 0
 }
 .invite_notice+table {
 	border: none;
-	box-shadow: var(--borderShadow);
 	box-sizing: border-box;
 	border-collapse: separate;
 	border-spacing: 0
@@ -2210,7 +1950,6 @@ a[name=startcomments]~table.main:last-of-type table:not([class]) table.main tabl
 }
 .center_comments>table.main:only-of-type>tbody>tr>td>table {
 	border: none;
-	box-shadow: var(--borderShadow);
 	box-sizing: border-box;
 	border-collapse: separate;
 	border-spacing: 0
@@ -2220,7 +1959,6 @@ a[name=startcomments]~table.main:last-of-type table:not([class]) table.main tabl
 }
 form[name=message] {
 	border: none;
-	box-shadow: var(--borderShadow);
 	box-sizing: border-box;
 	border-collapse: separate;
 	border-spacing: 0
@@ -2377,7 +2115,6 @@ table.donate {
 }
 body>table.menu+table.main>tbody>tr>td.bottom:last-child>h2,
 body>table.menu+table.main>tbody>tr>td.bottom:last-child>h2+table:last-of-type {
-	box-shadow: var(--borderShadow);
 	border-left: none;
 	border-right: none;
 	box-sizing: border-box;
@@ -2403,7 +2140,6 @@ body>table.menu+table.main>tbody>tr>td.bottom:last-child>script+script+h1~table[
 body>table.menu+table.main>tbody>tr>td.bottom:last-child>h1:first-child+table:last-child,
 body>table.menu+table.main>tbody>tr>td.bottom:last-child>script:first-child+h1+table:last-child[cellpadding="5"] {
 	border: none;
-	box-shadow: var(--borderShadow);
 	box-sizing: border-box;
 	border-collapse: separate;
 	border-spacing: 0
@@ -2411,7 +2147,6 @@ body>table.menu+table.main>tbody>tr>td.bottom:last-child>script:first-child+h1+t
 body>table.menu+table.main>tbody>tr>td.bottom:last-child>div[style="width: 900px; text-align: left"]>div[style*="background-color: #BCCAD6;"]:first-child {
 	background-color: var(--TableCellColor2)!important;
 	border: none;
-	box-shadow: var(--borderShadow);
 	box-sizing: border-box;
 	border-collapse: separate;
 	border-spacing: 0
@@ -2424,7 +2159,6 @@ body>table.menu+table.main>tbody>tr>td.bottom:last-child>table.main>tbody>tr>td.
 }
 body>table.menu+table.main>tbody>tr>td.bottom:last-child table.main>tbody>tr>td.embedded>h2,
 body>table.menu+table.main>tbody>tr>td.bottom:last-child table.main>tbody>tr>td.embedded>h2+table:not([class]) {
-	box-shadow: var(--borderShadow);
 	border-left: none;
 	border-right: none;
 	box-sizing: border-box;
@@ -2464,7 +2198,6 @@ h2[style="width: 743px;"] {
 }
 #tabs+table[width="800"] {
 	border: none;
-	box-shadow: var(--borderShadow);
 	box-sizing: border-box;
 	border-collapse: separate;
 	border-spacing: 0
@@ -2473,7 +2206,6 @@ h2[style="width: 743px;"] {
 	margin-bottom: 15px;
 	padding: 10px 0 10px 10px;
 	background-color: var(--DarkestColor);
-	box-shadow: var(--borderShadow)
 }
 .spoiler {
 	background-color: var(--DarkestColor);
