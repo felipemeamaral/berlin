@@ -170,8 +170,8 @@ select:focus,
 textarea:focus,
 button:focus,
 .button:focus {
-	border: 1px solid var(--highlightmenutext);
-	background-color: var(--MainColor);
+	border: 1px solid var(--MenuFontColor);
+	background-color: var(--DarkestColor);
 	color: var(--highlightmenutext)
 }
 input[disabled] {
@@ -420,13 +420,17 @@ input#sitesearchinput:hover {
 	opacity: 1
 }
 div#sitesearch form#sitesearchform input#sitesearchinput:focus,
-textarea:focus,
 button:focus,
 .button:focus {
 	border: 1px solid var(--highlightmenutext);
 	background-color: var(--MainColor);
 	color: var(--highlightmenutext);
 	opacity: 1;
+}
+textarea:focus {
+    border: 1px solid var(--MenuFontColor);
+	background-color: var(--MainColor);
+	color: var(--white);
 }
 input,
 select,
@@ -435,8 +439,8 @@ button,
 .button {
 	outline: none;
 	border: 1px solid var(--MainColor);
-	background-color: var(--searchDropdown);
-	color: var(--highlightmenutext)
+	background-color: #041824;
+	color: var(--shittyborder)
 }
 body>table:first-of-type .embedded {
 	text-align: right;
@@ -2243,22 +2247,3 @@ img[src*="pic/flag/"] {
 #subcell div span {
 	display: none
 }
-.mediawiki,
-.pBody,
-.mw-body,
-#p-navigation-label,
-#p-Index-label,
-#p-search-label,
-#p-tb-label,
-.client-js,
-div#column-content,
-.mediawiki,
-.toc,
-.mw-warning,
-.mw-headline,
-.toccolours,
-.tocnumber {
-    background-color: var(--DarkestColor);
-    color: var(--white)
-}
-
