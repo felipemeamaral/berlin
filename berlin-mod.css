@@ -52,8 +52,6 @@
 }
 .hideablecontent {
 	padding: 15px;
-	background: var(--collapsables);
-	border: thick double var(--MainColor)
 }
 .list-overview {
 	display: hidden;
@@ -99,7 +97,7 @@ body {
 	color: var(--white);
 	margin: 137px 0 0;
 	padding: 10px 20px 20px 0;
-	background: var(--MainColor) url(https://i.hdbits.org/eOJKIzM.png)
+	background-color: #072336;
 }
 body>table.main {
 	border: none
@@ -767,7 +765,9 @@ td#sidebar-container form>select {
 }
 td#sidebar-container .embedded {
 	background-color: var(--DarkestColor);
-    border-radius: 6px !important;
+    border-top: 1px solid var(--MenuFontColor);
+    border-right: 1px solid var(--MenuFontColor);
+    border-bottom: 1px solid var(--MenuFontColor)
 }
 td#sidebar-container .embedded table,
 td#sidebar-container .embedded h2 {
@@ -1178,6 +1178,12 @@ html .statbox_films {
 html .film-notorrents {
 	color: rgba(207, 218, 227, .5)
 }
+.rc {
+    margin: 0 5px 25px 5px;
+    text-align: left;
+    background-color: var(--HoverHighlight);
+    border: 1px solid var(--MenuFontColor)
+}
 html .rc__row {
 	background-color: rgba(255, 255, 255, .2)
 }
@@ -1185,11 +1191,11 @@ html .rc__toggle {
 	font-size: 20px;
 	background-color: var(--DarkestColor);
 	color: var(--MenuFontColor);
-	border-top: 3px solid var(--MenuFontColor)
+	border-top: 1px solid var(--MenuFontColor)
 }
 .rc__toggle:hover {
 	color: var(--highlightmenutext);
-	border-top: 3px solid var(--highlightmenutext)
+	border-top: 1px solid var(--highlightmenutext)
 }
 html .rc__film__poster {
 	object-fit: fill
@@ -1198,7 +1204,7 @@ html .rc__film__poster {
 	padding: 15px;
 	background: var(--DarkestColor);
 	color: var(--highlightmenutext);
-	border-bottom: 3px solid var(--MenuFontColor)
+	border-bottom: 1px solid var(--MenuFontColor)
 }
 .rc__downloads {
 	position: absolute;
@@ -1715,10 +1721,15 @@ td.embedded[bgcolor="#ECE9D8"] {
 #searchbox td[style*="border:black solid 1px;"] {
 	border: none!important
 }
-#details {
+#details,
+table.sources_table,
+table.lottery_table,
+table.lottery_table2 {
+    background-color: var(--DarkestColor);
 	box-sizing: border-box;
 	border-collapse: separate;
-	border-spacing: 0
+	border-spacing: 0;
+    border: 1px solid var(--MenuFontColor)
 }
 #details table:not([class]),
 #details>tbody>tr:nth-of-type(even) {
@@ -1763,14 +1774,6 @@ tr[bgcolor="#436c80"] {
 }
 .showseasons .notorrents>h3 {
 	color: rgba(207, 218, 227, .5)
-}
-table.sources_table,
-table.lottery_table,
-table.lottery_table2 {
-	border: none;
-	box-sizing: border-box;
-	border-collapse: separate;
-	border-spacing: 0
 }
 table.sources_table,
 .sources_table td.borderaround {
@@ -1965,7 +1968,8 @@ a[name=startcomments]~table.main:last-of-type table:not([class]) table.main tabl
 	border-spacing: 0
 }
 .center_comments>table.main:only-of-type>tbody>tr>td>table>tbody>tr>td>p.sub+table.main {
-	border: 1px solid var(--DarkestColor)
+	background-color: var(--HoverHighlight);
+    border: 1px solid var(--MenuFontColor)
 }
 form[name=message] {
 	border: none;
@@ -2165,7 +2169,8 @@ body>table.menu+table.main>tbody>tr>td.bottom:last-child>table.main>tbody>tr>td.
 	width: 850px
 }
 body>table.menu+table.main>tbody>tr>td.bottom:last-child>table.main>tbody>tr>td.embedded>table[cellpadding="10"]:first-child>tbody>tr>td>table.main {
-	border: 1px solid var(--DarkestColor)
+	background-color: var(--HoverHighlight);
+    border: 1px solid var(--MenuFontColor)
 }
 body>table.menu+table.main>tbody>tr>td.bottom:last-child table.main>tbody>tr>td.embedded>h2,
 body>table.menu+table.main>tbody>tr>td.bottom:last-child table.main>tbody>tr>td.embedded>h2+table:not([class]) {
@@ -2238,3 +2243,22 @@ img[src*="pic/flag/"] {
 #subcell div span {
 	display: none
 }
+.mediawiki,
+.pBody,
+.mw-body,
+#p-navigation-label,
+#p-Index-label,
+#p-search-label,
+#p-tb-label,
+.client-js,
+div#column-content,
+.mediawiki,
+.toc,
+.mw-warning,
+.mw-headline,
+.toccolours,
+.tocnumber {
+    background-color: var(--DarkestColor);
+    color: var(--white)
+}
+
