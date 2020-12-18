@@ -184,7 +184,7 @@ input[type=button],
 input[type=submit],
 input[type=reset] {
 	outline: none;
-	border: 1px solid var(--DarkestColor);
+	border: 1px solid var(--shittyborder);
 	background-color: var(--DarkestColor);
 	color: var(--MenuFontColor);
 	position: relative;
@@ -227,9 +227,9 @@ input[type=submit]:active,
 input[type=reset]:hover,
 input[type=reset]:focus,
 input[type=reset]:active {
-	border: 1px solid var(--shittyborder);
+	border: 1px solid var(--highlightmenutext);
 	background-color: var(--weirdwhite);
-	color: var(--shittyborder)
+	color: var(--highlightmenutext)
 }
 ::-webkit-input-placeholder {
 	color: var(--weirdwhite);
