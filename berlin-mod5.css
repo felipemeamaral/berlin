@@ -167,11 +167,10 @@ html body table.main tbody tr td.bottom form table#searchbox tbody tr td input#s
 }
 input:focus,
 select:focus,
-textarea:focus,
 button:focus,
 .button:focus {
 	border: 1px solid var(--MenuFontColor);
-	background-color: var(--DarkestColor);
+	background-color: var(--MainColor);
 	color: var(--highlightmenutext)
 }
 input[disabled] {
@@ -297,22 +296,18 @@ a.catlink:link:active,
 a.catlink:visited:hover,
 a.catlink:visited:focus,
 a.catlink:visited:active {
-	color: var(--white);
 	text-decoration: underline
 }
 a.altlink {
-	color: var(--white);
 	text-decoration: underline;
 }
 a.altlink:hover,
 a.altlink:focus,
 a.altlink:active {
-	color: var(--white);
 	text-decoration: underline
 }
 altlink:link,
 a.altlink:visited {
-	color: var(--white);
 	text-decoration: underline;
 }
 a.altlink:link:hover,
@@ -321,7 +316,6 @@ a.altlink:link:active,
 a.altlink:visited:hover,
 a.altlink:visited:focus,
 a.altlink:visited:active {
-	color: var(--white);
 	text-decoration: underline
 }
 table.tablesorter {
@@ -427,11 +421,6 @@ button:focus,
 	color: var(--highlightmenutext);
 	opacity: 1;
 }
-textarea:focus {
-    border: 1px solid var(--MenuFontColor);
-	background-color: var(--MainColor);
-	color: var(--white);
-}
 input,
 select,
 textarea,
@@ -439,8 +428,17 @@ button,
 .button {
 	outline: none;
 	border: 1px solid var(--MainColor);
-	background-color: #041824;
-	color: var(--shittyborder)
+	background-color: var(--searchDropdown);
+	color: var(--highlightmenutext)
+}
+textarea {
+    background-color: var(--DarkestColor);
+    color: var(--MenuFontColor)
+}
+textarea:focus {
+    border: 1px solid var(--MenuFontColor);
+    background-color: #081a25;
+    color: var(--white);
 }
 body>table:first-of-type .embedded {
 	text-align: right;
@@ -1046,7 +1044,7 @@ td.bottom>table[width="500"]:first-of-type td a:active {
 	border-collapse: separate;
 	border-spacing: 0
 }
-#offerstable>tbody>tr:nth-of-type(odd),
+/*#offerstable>tbody>tr:nth-of-type(odd),
 #table_open_requests>tbody>tr:nth-of-type(odd) {
 	background-color: var(--TableCellColor2)
 }
@@ -1057,7 +1055,7 @@ td.bottom>table[width="500"]:first-of-type td a:active {
 #offerstable>tbody>tr:hover,
 #table_open_requests>tbody>tr:hover {
 	background-color: var(--HoverHighlight)
-}
+}*/
 .actorresult:nth-of-type(odd) {
 	background-color: var(--TableCellColor2)
 }
