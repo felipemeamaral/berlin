@@ -265,7 +265,7 @@ a.catlink {
 }
 a:link,
 a:visited {
-	text-decoration: underline;
+	text-decoration: none;
 	color: #000
 }
 a:hover,
@@ -316,6 +316,9 @@ a.altlink:link:active,
 a.altlink:visited:hover,
 a.altlink:visited:focus,
 a.altlink:visited:active {
+	text-decoration: underline
+}
+a[href^="/browse.php?page="] {
 	text-decoration: underline
 }
 table.tablesorter {
