@@ -318,7 +318,7 @@ a.altlink:visited:focus,
 a.altlink:visited:active {
 	text-decoration: underline
 }
-a[href^="/browse.php?page="] {
+a[href^="browse.php?page="] {
 	text-decoration: underline
 }
 table.tablesorter {
