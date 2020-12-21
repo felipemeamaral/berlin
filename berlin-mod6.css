@@ -265,7 +265,7 @@ a.catlink {
 }
 a:link,
 a:visited {
-	text-decoration: none;
+	text-decoration: underline;
 	color: #000
 }
 a:hover,
