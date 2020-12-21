@@ -1120,7 +1120,8 @@ a .fl, a .fl.internal {
 	margin-right: 5px
 }
 .tag.internal {
-	background-color: var(--InternalColor)
+	background-color: var(--InternalColor);
+	border-radius: 2px
 }
 .genres {
 	color: var(--GenresColor);
