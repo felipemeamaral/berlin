@@ -2254,6 +2254,6 @@ img[src*="pic/flag/"] {
 a[href*="/details.php?id="] {
   font-weight: bold;
 }
-span[style="background-color:#FFFF00"] {
+span[style*="background-color:#FFFF00"] {
   background-color: var(--MenuFontColor) !important
 }
