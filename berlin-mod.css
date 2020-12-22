@@ -2275,6 +2275,7 @@ button#tvdb_parse_title:hover
   background-color: var(--weirdwhite) !important;
   color: var(--highlightmenutext) !important
 }
-td.comment > a {
+td.comment > a,
+td.text a {
     color: var(--MenuFontColor);
 }
