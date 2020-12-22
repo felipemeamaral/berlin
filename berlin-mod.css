@@ -1094,7 +1094,8 @@ a .fl, a .fl.internal {
 	font-size: 10px
 }
 .tag.new {
-	background-color: var(--DownBonusRed)
+	background-color: var(--DownBonusRed);
+	border-radius: 2px
 }
 .tag.freeleech {
 	background-color: var(--RatioBlue)
