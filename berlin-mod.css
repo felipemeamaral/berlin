@@ -2252,8 +2252,9 @@ img[src*="pic/flag/"] {
 	display: none
 }
 a[href*="/details.php?id="] {
-  font-weight: bold;
+	font-weight: bold;
 }
 span[style*="background-color:#FFFF00"] {
-  background-color: var(--MenuFontColor) !important
+	border-radius: 2px;
+	background-color: var(--MenuFontColor) !important
 }
