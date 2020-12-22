@@ -350,7 +350,7 @@ a.altlink[href^="userdetails.php?id="]:active {
 }
 td.comment,
 td.text {
-	font-size: 14px;
+	font-size: 13px;
 	max-width: 800px;
 	word-wrap: break-word;
 	word-break: break-word
