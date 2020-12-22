@@ -2245,8 +2245,12 @@ h2[style="width: 743px;"] {
 img[src*="pic/flag/"] {
 	width: 30px;
 	object-fit: none;
-	filter: grayscale(20%)
+	filter: grayscale(20%);
+	border-radius: 2px
 }
 #subcell div span {
 	display: none
+}
+a[href*="/details.php?id="] {
+  font-weight: bold;
 }
