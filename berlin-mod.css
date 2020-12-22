@@ -2261,3 +2261,16 @@ span[style*="background-color:#FFFF00"] {
 .comment img {
     max-width: 799px;
 }
+button#tvdb_parse_title {
+	color: var(--MenuFontColor) !important;
+	background-color: var(--DarkestColor);
+	border: solid 1px var(--shittyborder) !important
+}
+button#tvdb_parse_title:active,
+button#tvdb_parse_title:focus,
+button#tvdb_parse_title:hover
+{
+  border: 1px solid var(--highlightmenutext) !important;
+  background-color: var(--weirdwhite) !important;
+  color: var(--highlightmenutext) !important
+}
