@@ -120,7 +120,7 @@ table.message,
 table[border="1"],
 th,
 td {
-	border: none
+	border-color: transparent
 }
 th,
 h2,
