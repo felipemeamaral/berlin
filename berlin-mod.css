@@ -1147,7 +1147,8 @@ td[id^=codec] {
 	background: 0 0
 }
 #searchbox>tbody>tr>td {
-	background: var(--TableCellColor2)
+	background: var(--TableCellColor2);
+	border: solid 1px transparent
 }
 form>#searchbox {
 	border: none;
