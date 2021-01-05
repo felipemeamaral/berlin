@@ -1098,7 +1098,8 @@ a .fl, a .fl.internal {
 	border-radius: 2px
 }
 .tag.freeleech {
-	background-color: var(--RatioBlue)
+	background-color: var(--RatioBlue);
+	border-radius: 2px !important
 }
 .tag.moderate {
 	background-color: var(--DownBonusRed)
