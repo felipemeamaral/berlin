@@ -2280,6 +2280,6 @@ td.comment > a,
 td.text a {
     color: var(--MenuFontColor);
 }
-#codec0 .medium0 {
-  background-image: url(https://hdbits.org/pic/styles/berlin/types/audio.png)
+img[src="/pic/blank2.gif"] {
+  background-image: url(https://hdbits.org/pic/styles/berlin/types/audio.png);
 }
