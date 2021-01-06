@@ -2280,6 +2280,149 @@ td.comment > a,
 td.text a {
     color: var(--MenuFontColor);
 }
-img[src="/pic/blank2.gif"] {
-  background-image: url(https://hdbits.org/pic/styles/berlin/types/audio.png);
+#codec0,
+#codec1,
+#codec2,
+#codec3,
+#codec4,
+#codec5,
+.medium1,
+.medium2,
+.medium3,
+.medium4,
+.medium5,
+.medium6,
+.category1,
+.category2,
+.category3,
+.category4,
+.category5,
+.category6,
+.category7,
+.category8 {
+ height:42px;
+ width:42px;
+ padding:0 !important
+}
+.category1 {
+ background-image:url(/pic/styles/berlin/types/film.png)
+}
+.category2 {
+ background-image:url(/pic/styles/berlin/types/tv.png)
+}
+.category3 {
+ background-image:url(/pic/styles/berlin/types/documentary.png)
+}
+.category4 {
+ background-image:url(/pic/styles/berlin/types/music.png)
+}
+.category5 {
+ background-image:url(/pic/styles/berlin/types/sport.png)
+}
+.category6 {
+ background-image:url(/pic/styles/berlin/types/audio.png)
+}
+.category7 {
+ background-image:url(/pic/styles/berlin/types/xxx.png)
+}
+.category8 {
+ background-image:url(/pic/styles/berlin/types/misc.png)
+}
+.catcell {
+ padding:0 !important;
+ border-width:0 0 1px 1px;
+ width:42px
+}
+#codec0 .medium0 {
+  background-image:url(/pic/styles/berlin/types/audio.png)
+}
+#codec1 .medium1 {
+ background-image:url(/pic/styles/berlin/types/h264-bluray.png)
+}
+#codec1 .medium3 {
+ background-image:url(/pic/styles/berlin/types/h264-encode.png)
+}
+#codec1 .medium4 {
+ background-image:url(/pic/styles/berlin/types/h264-capture.png)
+}
+#codec1 .medium5 {
+ background-image:url(/pic/styles/berlin/types/h264-remux.png)
+}
+#codec1 .medium6 {
+ background-image:url(/pic/styles/berlin/types/h264-webdl.png)
+}
+#codec2 .medium1 {
+ background-image:url(/pic/styles/berlin/types/mpeg2-bluray.png)
+}
+#codec2 .medium3 {
+ background-image:url(/pic/styles/berlin/types/mpeg2-encode.png)
+}
+#codec2 .medium4 {
+ background-image:url(/pic/styles/berlin/types/mpeg2-capture.png)
+}
+#codec2 .medium5 {
+ background-image:url(/pic/styles/berlin/types/mpeg2-remux.png)
+}
+#codec2 .medium6 {
+ background-image:url(/pic/styles/berlin/types/mpeg2-webdl.png)
+}
+#codec3 .medium1 {
+ background-image:url(/pic/styles/berlin/types/vc1-bluray.png)
+}
+#codec3 .medium3 {
+ background-image:url(/pic/styles/berlin/types/vc1-encode.png)
+}
+#codec3 .medium4 {
+ background-image:url(/pic/styles/berlin/types/vc1-capture.png)
+}
+#codec3 .medium5 {
+ background-image:url(/pic/styles/berlin/types/vc1-remux.png)
+}
+#codec3 .medium6 {
+ background-image:url(/pic/styles/berlin/types/vc1-webdl.png)
+}
+#codec4 .medium1 {
+ background-image:url(/pic/styles/berlin/types/xvid-bluray.png)
+}
+#codec4 .medium3 {
+ background-image:url(/pic/styles/berlin/types/xvid-encode.png)
+}
+#codec4 .medium4 {
+ background-image:url(/pic/styles/berlin/types/xvid-capture.png)
+}
+#codec4 .medium5 {
+ background-image:url(/pic/styles/berlin/types/xvid-remux.png)
+}
+#codec4 .medium6 {
+ background-image:url(/pic/styles/berlin/types/xvid-webdl.png)
+}
+#codec5 .medium1 {
+ background-image:url(/pic/styles/berlin/types/hevc-bluray.png)
+}
+#codec5 .medium3 {
+ background-image:url(/pic/styles/berlin/types/hevc-encode.png)
+}
+#codec5 .medium4 {
+ background-image:url(/pic/styles/berlin/types/hevc-capture.png)
+}
+#codec5 .medium5 {
+ background-image:url(/pic/styles/berlin/types/hevc-remux.png)
+}
+#codec5 .medium6 {
+ background-image:url(/pic/styles/berlin/types/hevc-webdl.png)
+}
+#codec6 .medium1 {
+ background-image:url(/pic/styles/berlin/types/vp9-bluray.png)
+}
+#codec6 .medium3 {
+ background-image:url(/pic/styles/berlin/types/vp9-encode.png)
+}
+#codec6 .medium4 {
+ background-image:url(/pic/styles/berlin/types/vp9-capture.png)
+}
+#codec6 .medium5 {
+ background-image:url(/pic/styles/berlin/types/vp9-remux.png)
+}
+#codec6 .medium6 {
+ background-image:url(/pic/styles/berlin/types/vp9-webdl.png)
 }
