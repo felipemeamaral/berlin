@@ -1111,7 +1111,8 @@ a .fl, a .fl.internal {
 	background-color: var(--RatioBlue)
 }
 .tag.tag_completed {
-	background-color: var(--completed)
+	background-color: var(--completed);
+	border-radius: 2px
 }
 .tag.tag_incomplete {
 	background-color: var(--DownBonusRed)
