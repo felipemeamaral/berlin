@@ -819,7 +819,7 @@ td.bottom>table[width="800"]:first-of-type td a,
 td.bottom>table[width="500"]:first-of-type td a {
 	height: 23px;
 	line-height: 23px;
-	border-radius: 6px;
+	border-top: 2px solid var(--DarkestColor);
 	background-color: var(--DarkestColor);
 	color: var(--MenuFontColor);
 	text-decoration: none;
@@ -832,6 +832,7 @@ td.bottom>table[width="800"]:first-of-type td a:focus,
 td.bottom>table[width="500"]:first-of-type td a:hover,
 td.bottom>table[width="500"]:first-of-type td a:focus {
 	background-color: var(--DarkestColor);
+	border-top: 2px solid var(--highlightmenutext);
 	color: var(--highlightmenutext)
 }
 td.bottom>table[width="800"]:first-of-type td a:active,
