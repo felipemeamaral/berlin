@@ -860,7 +860,6 @@ td.bottom>table[width="500"]:first-of-type td a:active {
 	color: var(--highlightmenutext)!important
 }
 #tabs>.tab a {
-	border-radius: 3px;
 	background-color: #041824;
 	color: var(--MenuFontColor);
 	text-decoration: none;
