@@ -824,8 +824,7 @@ td.bottom>table[width="500"]:first-of-type td a {
 	color: var(--MenuFontColor);
 	text-decoration: none;
 	display: inline-block;
-	width: 100%;
-	border: none; 
+	width: 100%
 }
 td.bottom>table[width="800"]:first-of-type td a:hover,
 td.bottom>table[width="800"]:first-of-type td a:focus,
