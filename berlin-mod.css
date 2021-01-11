@@ -2317,6 +2317,8 @@ a.index:last-child {
 	background-color: var(--DarkestColor);
 	color: var(--MenuFontColor) !important;
 	border-radius: 6px;
+	font-size: 90%;
+	font-weight: normal;
 	border: 1px solid var(--shittyborder);
 	text-decoration: none;
 }
