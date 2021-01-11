@@ -2312,3 +2312,19 @@ td.text a {
 	color: var(--highlightmenutext) !important;
 	text-decoration: none
 }
+a.index {
+	padding: 4px;
+	background-color: var(--DarkestColor);
+	color: var(--MenuFontColor) !important;
+	border-radius: 6px;
+	border: 1px solid var(--shittyborder);
+	text-decoration: none;
+}
+a.index:hover,
+a.index:focus,
+a.index:active {
+	text-decoration: none;
+	border: 1px solid var(--highlightmenutext);
+	background-color: var(--weirdwhite);
+	color: var(--highlightmenutext) !important
+}
