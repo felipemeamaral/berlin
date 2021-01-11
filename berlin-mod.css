@@ -2312,7 +2312,7 @@ td.text a {
 	color: var(--highlightmenutext) !important;
 	text-decoration: none
 }
-a.index {
+a.index:last-child {
 	padding: 4px;
 	background-color: var(--DarkestColor);
 	color: var(--MenuFontColor) !important;
@@ -2320,9 +2320,9 @@ a.index {
 	border: 1px solid var(--shittyborder);
 	text-decoration: none;
 }
-a.index:hover,
-a.index:focus,
-a.index:active {
+a.index:hover:last-child,
+a.index:focus:last-child,
+a.index:active:last-child {
 	text-decoration: none;
 	border: 1px solid var(--highlightmenutext);
 	background-color: var(--weirdwhite);
