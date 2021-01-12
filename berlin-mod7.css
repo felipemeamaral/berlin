@@ -2331,45 +2331,76 @@ a.index:active:last-child {
 	color: var(--highlightmenutext) !important
 }
 .chosen-container-multi .chosen-choices {
-  background-color: var(--searchDropdown);
-  background-image: none;
-  color: var(--highlightmenutext);
-  border: none
+	background-color: var(--searchDropdown);
+	background-image: none;
+	color: var(--highlightmenutext);
+	border: none
 }
-
 .chosen-container-active .chosen-choices,
 .chosen-container-active .chosen-choices:focus {
-  color: var(--highlightmenutext);
-  border: 1px solid var(--highlightmenutext);
+	color: var(--highlightmenutext);
+	border: 1px solid var(--highlightmenutext);
 }
-
 .chosen-container .chosen-drop {
-  background-color: var(--searchDropdown);
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  color: var(--highlightmenutext);
-  border-bottom: 1px solid var(--highlightmenutext);
-  border-left: 1px solid var(--highlightmenutext);
-  border-right: 1px solid var(--highlightmenutext);
+	background-color: var(--searchDropdown);
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: var(--highlightmenutext);
+	border-bottom: 1px solid var(--highlightmenutext);
+	border-left: 1px solid var(--highlightmenutext);
+	border-right: 1px solid var(--highlightmenutext);
 }
-
 .chosen-container-multi .chosen-choices li.search-choice {
-  background-color: var(--weirdwhite);
-  background-image: none;
-  color: var(--shittyborder);
-  border: 1px solid var(--shittyborder);
-  -webkit-box-shadow: none;
-  box-shadow: none;
+	background-color: var(--weirdwhite);
+	background-image: none;
+	color: var(--shittyborder);
+	border: 1px solid var(--shittyborder);
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
-
 .chosen-container-multi .chosen-choices li.search-choice:hover,
 .chosen-container-multi .chosen-choices li.search-choice:focus,
 .chosen-container-multi .chosen-choices li.search-choice:active {
-  color: var(--highlightmenutext);
-  border: 1px solid var(--highlightmenutext);
+	color: var(--highlightmenutext);
+	border: 1px solid var(--highlightmenutext);
 }
-
-.chosen-container .chosen-results,
+.chosen-container-multi .chosen-choices {
+	background-color: var(--searchDropdown);
+	background-image: none;
+	color: var(--highlightmenutext);
+	border: none
+}
+.chosen-container-active .chosen-choices,
+.chosen-container-active .chosen-choices:focus {
+	color: var(--highlightmenutext);
+	border: 1px solid var(--highlightmenutext);
+}
+.chosen-container .chosen-drop {
+	background-color: var(--searchDropdown);
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: var(--highlightmenutext);
+	border-bottom: 1px solid var(--highlightmenutext);
+	border-left: 1px solid var(--highlightmenutext);
+	border-right: 1px solid var(--highlightmenutext);
+}
+.chosen-container-multi .chosen-choices li.search-choice {
+	background-color: var(--weirdwhite);
+	background-image: none;
+	color: var(--shittyborder);
+	border: 1px solid var(--shittyborder);
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.chosen-container-multi .chosen-choices li.search-choice:hover,
+.chosen-container-multi .chosen-choices li.search-choice:focus,
+.chosen-container-multi .chosen-choices li.search-choice:active {
+	color: var(--highlightmenutext);
+	border: 1px solid var(--highlightmenutext);
+}
+.chosen-container .chosen-results{
+	color: var(--highlightmenutext) !important
+}
 .chosen-container-multi .chosen-choices li.search-field input[type="text"] {
-  color: var(--highlightmenutext) !important
+	color: var(--shittyborder) !important
 }
