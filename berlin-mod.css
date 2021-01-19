@@ -2404,3 +2404,7 @@ a.index:active:last-child {
 .chosen-container-multi .chosen-choices li.search-field input[type="text"] {
 	color: var(--shittyborder) !important
 }
+table:nth-child(4) tr[valign="top"] {
+	background-color: var(--HoverHighlight);
+	border: 1px solid var(--MenuFontColor)
+}
