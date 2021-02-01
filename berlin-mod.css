@@ -387,7 +387,7 @@ body>table:first-of-type {
 }
 #sitesearchinput {
 	border: 1px solid var(--DarkestColor);
-    border-radius: 6px;
+    	border-radius: 6px;
 	background-color: var(--MainColor);
 	padding: 5px;
 	margin-top: 2px;
@@ -402,7 +402,6 @@ body>table:first-of-type {
 	background: var(--MainColor) center no-repeat url(https://i.hdbits.org/o8Ps0IT.png);
 	opacity: .3;
 	font-size: 15px;
-	border-left: 1px solid var(--highlightmenutext);
 	cursor: pointer;
 	border-radius: 0
 }
