@@ -396,7 +396,7 @@ body>table:first-of-type {
 #sitesearchsubmit {
 	float: center;
 	padding: 11px;
-	margin-top: 1px;
+	margin-top: 5px;
 	margin-left: 0;
 	padding-left: 13px;
 	background: var(--MainColor) center no-repeat url(https://i.hdbits.org/o8Ps0IT.png);
