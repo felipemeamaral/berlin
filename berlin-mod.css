@@ -2259,7 +2259,8 @@ span[style*="background-color:#FFFF00"] {
 	border-radius: 2px;
 	background-color: var(--MenuFontColor) !important
 }
-.comment img {
+.comment img,
+table.main img {
 	max-width: 799px;
 }
 button#tvdb_parse_title {
@@ -2406,4 +2407,7 @@ a.index:active:last-child {
 table:nth-child(4) tr[valign="top"] {
 	background-color: var(--HoverHighlight);
 	border: 1px solid var(--MenuFontColor)
+}
+table#details tr:nth-child(7) span {
+  	color: var(--white) !important
 }
