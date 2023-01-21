@@ -299,6 +299,7 @@ a.catlink:visited:active {
 	text-decoration: underline
 }
 a.altlink {
+	color: var(--MenuFontColor);
 	text-decoration: underline;
 }
 a.altlink:hover,
