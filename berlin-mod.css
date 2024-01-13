@@ -397,7 +397,6 @@ body>table:first-of-type {
 #sitesearchsubmit {
 	float: center;
 	padding: 11px;
-	margin-top: 4px;
 	margin-left: 0;
 	padding-left: 13px;
 	background: var(--MainColor) center no-repeat url("https://hdbits.org/pic/berlin/loupe.png");
