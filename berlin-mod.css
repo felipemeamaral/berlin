@@ -400,7 +400,7 @@ body>table:first-of-type {
 	margin-top: 4px;
 	margin-left: 0;
 	padding-left: 13px;
-	background: var(--MainColor) center no-repeat url("../pic/berlin/loupe.png");
+	background: var(--MainColor) center no-repeat url("https://hdbits.org/pic/berlin/loupe.png");
 	opacity: .3;
 	font-size: 15px;
 	cursor: pointer;
@@ -474,7 +474,7 @@ body .menu {
 	margin: 0
 }
 div#logo {
-	background: left/67% no-repeat url("../pic/berlin/logo/hdblogo.png");
+	background: left/67% no-repeat url("https://hdbits.org/pic/berlin/logo/hdblogo.png");
 	margin: 10px;
 	margin-left: 15px;
 	margin-top: 10px
@@ -489,7 +489,7 @@ div#logo {
 	content: "Donate"
 }
 .buddylist {
-	background-image: url("../pic/berlin/friends.png");
+	background-image: url("https://hdbits.org/pic/berlin/friends.png");
 	background-repeat: no-repeat;
 	background-size: 14px 14px;
 	height: 14px;
@@ -498,7 +498,7 @@ div#logo {
 	background-position: 0
 }
 .mytorrents {
-	background-image: url("../pic/berlin/myuploads.png");
+	background-image: url("https://hdbits.org/pic/berlin/myuploads.png");
 	background-repeat: no-repeat;
 	background-size: 14px 14px;
 	height: 14px;
@@ -507,7 +507,7 @@ div#logo {
 	background-position: 0
 }
 .inbox {
-	background-image: url("../pic/berlin/inbox.png");
+	background-image: url("https://hdbits.org/pic/berlin/inbox.png");
 	background-repeat: no-repeat;
 	background-size: 16px 14px;
 	height: 14px;
@@ -516,7 +516,7 @@ div#logo {
 	background-position: 0
 }
 .inboxnew {
-	background-image: url("../pic/berlin/inboxn.png");
+	background-image: url("https://hdbits.org/pic/berlin/inboxn.png");
 	background-repeat: no-repeat;
 	background-size: 16px 14px;
 	height: 14px;
@@ -1602,25 +1602,25 @@ td.comment table.main {
 .unlockednew {
 	width: 36px;
 	height: 32px;
-	background: url("../pic/berlin/unlockednew.png") no-repeat center
+	background: url("https://hdbits.org/pic/berlin/unlockednew.png") no-repeat center
 }
 .unlocked {
 	width: 36px;
 	height: 32px;
-	background: url("../pic/berlin/unlocked.png") no-repeat center
+	background: url("https://hdbits.org/pic/berlin/unlocked.png") no-repeat center
 }
 .lockednew {
 	width: 36px;
 	height: 32px;
-	background: url("../pic/berlin/lockednew.png") no-repeat center
+	background: url("https://hdbits.org/pic/berlin/lockednew.png") no-repeat center
 }
 .locked {
 	width: 36px;
 	height: 32px;
-	background: url("../pic/berlin/locked.png") no-repeat center
+	background: url("https://hdbits.org/pic/berlin/locked.png") no-repeat center
 }
 .hasposted::after {
-	content: url("../pic/berlin/hasposted.png");
+	content: url("https://hdbits.org/pic/berlin/hasposted.png");
 	height: 10px;
 	width: 10px;
 	top: 6px;
@@ -1628,7 +1628,7 @@ td.comment table.main {
 	position: relative
 }
 img[src="/pic/info/icon_profile.gif"] {
-	background-image: url("../pic/berlin/icon_profile.png");
+	background-image: url("https://hdbits.org/pic/berlin/icon_profile.png");
 	background-repeat: no-repeat;
 	background-size: 57px 16px;
 	height: 16px;
@@ -1636,7 +1636,7 @@ img[src="/pic/info/icon_profile.gif"] {
 	width: 0
 }
 img[src="/pic/info/icon_pm.gif"] {
-	background-image: url("../pic/berlin/icon_pm.png");
+	background-image: url("https://hdbits.org/pic/berlin/icon_pm.png");
 	background-repeat: no-repeat;
 	background-size: 57px 16px;
 	height: 16px;
@@ -1644,7 +1644,7 @@ img[src="/pic/info/icon_pm.gif"] {
 	width: 0
 }
 img[src="/pic/info/icon_www.gif"] {
-	background-image: url("../pic/berlin/icon_www.png");
+	background-image: url("https://hdbits.org/pic/berlin/icon_www.png");
 	background-repeat: no-repeat;
 	background-size: 40px 14px;
 	height: 14px;
@@ -1652,7 +1652,7 @@ img[src="/pic/info/icon_www.gif"] {
 	width: 0
 }
 img[src="/pic/icon_latest_reply.gif"] {
-	background-image: url("../pic/berlin/icon_latest_reply.png");
+	background-image: url("https://hdbits.org/pic/berlin/icon_latest_reply.png");
 	background-repeat: no-repeat;
 	background-size: 18px 9px;
 	height: 9px;
@@ -1904,12 +1904,12 @@ h2>a[name=blocks] {
 	background-color: var(--HoverHighlight)!important
 }
 .default_avatar {
-	background: url("../pic/berlin/defava.png") no-repeat top left;
+	background: url("https://hdbits.org/pic/berlin/defava.png") no-repeat top left;
 	background-size: 150px 150px;
 	height: 150px
 }
 .default_avatar_small {
-	background: url("../pic/berlin/defava.png") no-repeat;
+	background: url("https://hdbits.org/pic/berlin/defava.png") no-repeat;
 	background-size: 100% 100%;
 	height: 82px
 }
