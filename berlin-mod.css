@@ -1,6 +1,6 @@
 /*!* Theme Name: Berlin
 * Version: 1.0
-* Last Updated: January 14 2023
+* Last Updated: January 17 2023
 * Mods by malcompaq
 * Notes: Ensure stylesheet is set to (default) in profile settings when in use*/ 
 
@@ -2404,6 +2404,6 @@ table:nth-child(4) tr[valign="top"] {
 	background-color: var(--HoverHighlight);
 	border: 1px solid var(--MenuFontColor)
 }
-table#details tr:nth-child(7) span {
-  	color: var(--white) !important
-}
+/* table#details tr:nth-child(7) span {
+  	color: var(--tagText)!important;
+} */
