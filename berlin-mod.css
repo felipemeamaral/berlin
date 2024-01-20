@@ -839,7 +839,7 @@ td.bottom>table[width="500"]:first-of-type td a:active {
 	color: var(--maincolor);
 }
 .submenu-highlight__link {
-	background-color: var(--DarkestColor)!important;
+	/* background-color: var(--DarkestColor)!important; */
 	color: var(--highlightmenutext)!important
 }
 #tabs>.tab {
