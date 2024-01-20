@@ -2408,5 +2408,6 @@ table:nth-child(4) tr[valign="top"] {
   	color: var(--tagText)!important;
 } */
 #codec0 {
-    background-image: url(https://cdn.jsdelivr.net/gh/felipemeamaral/berlin/icons/audio.png) !important;
+	background-image: url(https://cdn.jsdelivr.net/gh/felipemeamaral/berlin/icons/audio.png) !important;
+	opacity: 90%
 }
